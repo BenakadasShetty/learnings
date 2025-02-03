@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "my-angular-app": {
+=======
+    "attorney-client-app": {
+>>>>>>> e5cf2b4 (initial commit)
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/my-angular-app",
+=======
+            "outputPath": "dist/attorney-client-app",
+>>>>>>> e5cf2b4 (initial commit)
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,12 +37,16 @@
             "styles": [
               "src/styles.css"
             ],
+<<<<<<< HEAD
             "scripts": [],
             "server": "src/main.server.ts",
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
             }
+=======
+            "scripts": []
+>>>>>>> e5cf2b4 (initial commit)
           },
           "configurations": {
             "production": {
@@ -64,10 +76,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "my-angular-app:build:production"
             },
             "development": {
               "buildTarget": "my-angular-app:build:development"
+=======
+              "buildTarget": "attorney-client-app:build:production"
+            },
+            "development": {
+              "buildTarget": "attorney-client-app:build:development"
+>>>>>>> e5cf2b4 (initial commit)
             }
           },
           "defaultConfiguration": "development"
