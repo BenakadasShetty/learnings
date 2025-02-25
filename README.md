@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# MyAngularApp
-=======
 # AttorneyClientApp
->>>>>>> e5cf2b4 (initial commit)
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
 
